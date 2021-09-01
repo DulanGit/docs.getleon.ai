@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 
-const title = 'Leon Docs'
+const title = 'Dulan Docs'
 const description = 'Leon Documentation - Main documentation of your open-source personal assistant Leon.'
 const url = process.env.NODE_ENV !== 'development' ? 'https://docs.getleon.ai' : 'http://localhost:3000'
 
@@ -72,21 +72,21 @@ module.exports = {
           position: 'left',
           label: 'How To'
         },
-        {
-          href: 'https://blog.getleon.ai',
-          label: 'Blog',
-          position: 'left'
-        },
-        {
-          href: 'https://roadmap.getleon.ai',
-          label: 'Roadmap',
-          position: 'left'
-        },
-        {
-          href: 'https://discord.gg/MNQqqKg',
-          label: 'Discord',
-          position: 'left'
-        },
+        // {
+        //   href: 'https://blog.getleon.ai',
+        //   label: 'Blog',
+        //   position: 'left'
+        // },
+        // {
+        //   href: 'https://roadmap.getleon.ai',
+        //   label: 'Roadmap',
+        //   position: 'left'
+        // },
+        // {
+        //   href: 'https://discord.gg/MNQqqKg',
+        //   label: 'Discord',
+        //   position: 'left'
+        // },
         {
           type: 'docsVersionDropdown',
           position: 'right'
@@ -96,15 +96,15 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://github.com/leon-ai/leon',
+          href: 'https://github.com/DulanGit',
           label: 'GitHub',
           position: 'right'
         },
-        {
-          href: 'https://sponsor.getleon.ai',
-          label: 'Sponsor',
-          position: 'right'
-        },
+        // {
+        //   href: 'https://sponsor.getleon.ai',
+        //   label: 'Sponsor',
+        //   position: 'right'
+        // },
         {
           type: 'search',
           position: 'right'
